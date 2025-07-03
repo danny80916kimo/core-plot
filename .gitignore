@@ -45,3 +45,4 @@ build/*
 # Doxygen tagfile output
 **/core-plot-tags.xml
 **/core-plot-touch-tags.xml
+/.build

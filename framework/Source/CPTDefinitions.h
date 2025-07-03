@@ -1,6 +1,12 @@
 #import <Availability.h>
 #import <TargetConditionals.h>
 
+#if TARGET_OS_IPHONE
+#import <Foundation/Foundation.h>
+#else
+#import <Foundation/Foundation.h>
+#endif
+
 /// @file
 
 /**
